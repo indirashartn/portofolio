@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEA Simulation Internship | Indira Syam Hartono</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #1e293b; }
+        .noselect { user-select: none; -webkit-user-select: none; }
+    </style>
+</head>
+<body class="noselect antialiased selection:bg-teal-100 selection:text-teal-900">
+
+    <nav class="w-full bg-white border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-6 py-4">
+            <a href="index.html" class="inline-flex items-center text-sm font-semibold text-teal-700 hover:text-teal-900 transition-colors">
+                <span class="mr-2 text-lg">&larr;</span> Back to Portfolio
+            </a>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-6 pt-12 pb-20">
+        
+        <header class="mb-10 border-b border-slate-200 pb-8">
+            <span class="px-3 py-1 bg-teal-100 text-teal-800 text-xs font-bold uppercase tracking-wider rounded border border-teal-200 mb-4 inline-block">Certified Internship (MSIB)</span>
+            <h1 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4 leading-tight">Finite Element Analysis (FEA) Internship</h1>
+            <p class="text-lg text-slate-600 font-medium">PT CADFEM Simulation Technology Indonesia</p>
+        </header>
+
+        <section class="mb-12">
+            <h2 class="text-xl font-bold text-slate-900 mb-4">Executive Summary</h2>
+            <div class="prose prose-slate max-w-none text-justify text-slate-600 leading-relaxed space-y-4">
+                <p>
+                    Completed an intensive certified internship specializing in Finite Element Analysis (FEA) for advanced mechanical and structural simulations. I utilized Ansys software to model complex engineering problems, ensuring highly accurate computational results.
+                </p>
+                <p>
+                    My core responsibilities included analyzing stress, strain, and pressure distributions across various structural components. By systematically interpreting these complex simulation outputs, I provided data-driven insights to evaluate structural integrity and support critical engineering decision-making processes.
+                </p>
+            </div>
+        </section>
+
+        <section class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm mb-8">
+            <h2 class="text-xl font-bold text-slate-900 mb-6">Project Documentation</h2>
+            
+            <a href="https://drive.google.com/file/d/1OUnnW_uKkX0PIFuVMOEQ7Da_B6MOSIsS/view?usp=drivesdk" target="_blank" class="w-full flex items-center justify-between px-6 py-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-lg transition-colors group">
+                <div>
+                    <h3 class="text-slate-800 font-bold mb-1">FEA Technical Assignment</h3>
+                    <p class="text-sm text-slate-500">View the structural analysis documentation using Ansys.</p>
+                </div>
+                <span class="text-teal-600 font-bold text-xl group-hover:translate-x-1 transition-transform">&rarr;</span>
+            </a>
+        </section>
+
+    </main>
+
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.onkeydown = function(e) {
+            if(e.keyCode == 123) return false;
+            if(e.ctrlKey && (e.keyCode === 67 || e.keyCode === 85 || e.keyCode === 83 || e.shiftKey && (e.keyCode === 73 || e.keyCode === 74 || e.keyCode === 67))) return false;
+        };
+    </script>
+</body>
+</html>
