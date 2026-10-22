@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research & Innovation | Indira Syam Hartono</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #1e293b; }
+        .noselect { user-select: none; -webkit-user-select: none; }
+    </style>
+</head>
+<body class="noselect antialiased selection:bg-teal-100 selection:text-teal-900">
+
+    <nav class="w-full bg-white border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-6 py-4">
+            <a href="index.html" class="inline-flex items-center text-sm font-semibold text-teal-700 hover:text-teal-900 transition-colors">
+                <span class="mr-2 text-lg">&larr;</span> Back to Portfolio
+            </a>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-6 pt-12 pb-20">
+        
+        <header class="mb-10 border-b border-slate-200 pb-8">
+            <span class="px-3 py-1 bg-teal-100 text-teal-800 text-xs font-bold uppercase tracking-wider rounded border border-teal-200 mb-4 inline-block">PKM-RE Funding Awardee</span>
+            <h1 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4 leading-tight">Ultrasonic Biosorbent Development for Metal Ion Reduction</h1>
+            <p class="text-lg text-slate-600 font-medium">Exact Research Category | Wastewater Treatment</p>
+        </header>
+
+        <section class="mb-12">
+            <h2 class="text-xl font-bold text-slate-900 mb-4">Executive Summary</h2>
+            <div class="prose prose-slate max-w-none text-justify text-slate-600 leading-relaxed space-y-4">
+                <p>
+                    Led a highly motivated team to secure competitive national research funding under the Exact Research (PKM-RE) category. The research focused on synthesizing an innovative and sustainable biosorbent to address industrial wastewater contamination.
+                </p>
+                <p>
+                    We implemented ultrasonic methods to enhance the biosorbent's structural properties, specifically targeting the effective reduction of toxic lead (Pb) metal ions. This project encompassed the entire research lifecycle—from initial proposal formulation and laboratory material synthesis to progress monitoring and comprehensive data presentation.
+                </p>
+            </div>
+        </section>
+
+        <section class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm mb-8">
+            <h2 class="text-xl font-bold text-slate-900 mb-6">Research Documentation</h2>
+            
+            <div class="flex flex-col gap-4">
+                <a href="https://drive.google.com/file/d/1L5mFE-CMq81ZHFobXILie3wH4SwID1TY/view?usp=drivesdk" target="_blank" class="w-full flex items-center justify-between px-6 py-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-lg transition-colors group">
+                    <div>
+                        <h3 class="text-slate-800 font-bold mb-1">Research Proposal</h3>
+                        <p class="text-sm text-slate-500">View the approved initial grant proposal.</p>
+                    </div>
+                    <span class="text-teal-600 font-bold text-xl group-hover:translate-x-1 transition-transform">&rarr;</span>
+                </a>
+
+                <a href="https://drive.google.com/file/d/1BDEj6UcMRF65UyNENfEfKZDo119PHQRQ/view?usp=drivesdk" target="_blank" class="w-full flex items-center justify-between px-6 py-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-lg transition-colors group">
+                    <div>
+                        <h3 class="text-slate-800 font-bold mb-1">Progress Report</h3>
+                        <p class="text-sm text-slate-500">Access the laboratory findings and progress report.</p>
+                    </div>
+                    <span class="text-teal-600 font-bold text-xl group-hover:translate-x-1 transition-transform">&rarr;</span>
+                </a>
+
+                <a href="https://drive.google.com/file/d/1u2ySTHrowei1IOB9648H_413nWNt3k8o/view?usp=drivesdk" target="_blank" class="w-full flex items-center justify-between px-6 py-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-lg transition-colors group">
+                    <div>
+                        <h3 class="text-slate-800 font-bold mb-1">Presentation Slides</h3>
+                        <p class="text-sm text-slate-500">Review the visual presentation of our methodology and results.</p>
+                    </div>
+                    <span class="text-teal-600 font-bold text-xl group-hover:translate-x-1 transition-transform">&rarr;</span>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.onkeydown = function(e) {
+            if(e.keyCode == 123) return false;
+            if(e.ctrlKey && (e.keyCode === 67 || e.keyCode === 85 || e.keyCode === 83 || e.shiftKey && (e.keyCode === 73 || e.keyCode === 74 || e.keyCode === 67))) return false;
+        };
+    </script>
+</body>
+</html>
