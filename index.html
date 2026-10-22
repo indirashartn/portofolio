@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indira Syam Hartono | Chemical Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+
+        /* ANTI-COPAS CSS */
+        .noselect {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        .nodrag {
+            -webkit-user-drag: none;
+            -khtml-user-drag: none;
+            -moz-user-drag: none;
+            -o-user-drag: none;
+            user-drag: none;
+            pointer-events: none;
+        }
+
+        /* STICKY HEADER TRANSITION */
+        .glass-header {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+        }
+
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.08);
+            border-color: #cbd5e1;
+        }
+    </style>
+</head>
+<body class="noselect antialiased selection:bg-teal-100 selection:text-teal-900">
+
+    <!-- STICKY HEADER -->
+    <header class="fixed top-0 w-full z-50 glass-header transition-all duration-300">
+        <div class="max-w-5xl mx-auto px-6 py-3 flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <!-- Foto Profil -->
+                <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-white shadow-sm flex-shrink-0">
+                    <img src="1000002816.jpg" alt="Indira Syam Hartono" class="w-full h-full object-cover nodrag" oncontextmenu="return false;">
+                </div>
+                <div>
+                    <h1 class="text-lg font-bold text-slate-800 leading-tight">Indira Syam Hartono</h1>
+                    <p class="text-xs text-slate-500 font-medium">Chemical Engineer | Process Simulation</p>
+                </div>
+            </div>
+            <a href="https://drive.google.com/file/d/1tmQmdMVKKqSrpND_JFrwlLqr0fnWtvIV/view?usp=drivesdk" target="_blank" class="hidden md:inline-flex px-4 py-2 bg-teal-700 hover:bg-teal-800 text-white text-sm font-medium rounded-md transition-colors shadow-sm">
+                View Credentials
+            </a>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 pt-32 pb-20">
+        
+        <!-- INTRO SECTION -->
+        <section class="mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4 tracking-tight">Master's Candidate in Chemical Engineering</h2>
+            <p class="text-base md:text-lg text-slate-600 leading-relaxed max-w-3xl text-justify">
+                Currently advancing my expertise in Process Engineering at Universitas Gadjah Mada, building upon a strong foundation from Universitas Syiah Kuala. I specialize in integrating theoretical engineering principles with advanced simulation tools to optimize industrial operations, design efficient plant processes, and evaluate thermodynamic systems. My experience spans from complex process modeling to practical field-based technical evaluations.
+            </p>
+            <div class="mt-6 flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-slate-100 text-slate-700 text-sm font-medium rounded border border-slate-200">Aspen Plus & HYSYS</span>
+                <span class="px-3 py-1 bg-slate-100 text-slate-700 text-sm font-medium rounded border border-slate-200">Ansys CFD</span>
+                <span class="px-3 py-1 bg-slate-100 text-slate-700 text-sm font-medium rounded border border-slate-200">ALOHA</span>
+                <span class="px-3 py-1 bg-slate-100 text-slate-700 text-sm font-medium rounded border border-slate-200">QUAL2Q</span>
+            </div>
+        </section>
+
+        <!-- EDUCATION TIMELINE -->
+        <section class="mb-16">
+            <h3 class="text-xl font-bold text-slate-900 mb-6 border-b border-slate-200 pb-2">Academic Background</h3>
+            <div class="space-y-6">
+                <div class="relative pl-6 border-l-2 border-teal-500">
+                    <div class="absolute w-3 h-3 bg-teal-500 rounded-full -left-[7px] top-1.5 border-2 border-white"></div>
+                    <h4 class="text-lg font-bold text-slate-800">Universitas Gadjah Mada</h4>
+                    <p class="text-sm text-teal-700 font-medium mb-1">Master's Degree in Chemical Engineering | 2025 - Present</p>
+                    <p class="text-sm text-slate-600">Focus Area: Process Engineering. Coursework includes Process Design & Simulation, Techno-Economic Analysis, and Process Integration.</p>
+                </div>
+                <div class="relative pl-6 border-l-2 border-slate-300">
+                    <div class="absolute w-3 h-3 bg-slate-300 rounded-full -left-[7px] top-1.5 border-2 border-white"></div>
+                    <h4 class="text-lg font-bold text-slate-800">Universitas Syiah Kuala</h4>
+                    <p class="text-sm text-slate-500 font-medium mb-1">Bachelor's Degree in Chemical Engineering | 2020 - 2025</p>
+                    <p class="text-sm text-slate-600">Graduated with an Excellent (A) grade for the final plant design project utilizing coal gasification processes.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS & EXPERIENCE (CLICKABLE CARDS) -->
+        <section>
+            <h3 class="text-xl font-bold text-slate-900 mb-6 border-b border-slate-200 pb-2">Professional Experience & Projects</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <a href="advanced-simulation.html" class="block bg-white p-6 rounded-xl border border-slate-200 card-hover transition-all">
+                    <h4 class="text-lg font-bold text-slate-800 mb-2">Advanced Process Simulation & Modeling</h4>
+                    <p class="text-sm text-slate-600 mb-4 line-clamp-3">Postgraduate applied research utilizing Ansys CFD, Aspen Plus, ALOHA, and QUAL2Q for industrial risk assessment, process optimization, and environmental modeling.</p>
+                    <div class="text-teal-600 text-sm font-semibold flex items-center gap-1">
+                        View Details <span class="text-lg leading-none">&rarr;</span>
+                    </div>
+                </a>
+
+                <a href="plant-design.html" class="block bg-white p-6 rounded-xl border border-slate-200 card-hover transition-all">
+                    <h4 class="text-lg font-bold text-slate-800 mb-2">Plant Design Project</h4>
+                    <p class="text-sm text-slate-600 mb-4 line-clamp-3">Preliminary design of an Ethylene Glycol plant from coal gasification (50,000 Tons/Year). Developed mass/energy balances and utility integration via Aspen Plus.</p>
+                    <div class="text-teal-600 text-sm font-semibold flex items-center gap-1">
+                        View Details <span class="text-lg leading-none">&rarr;</span>
+                    </div>
+                </a>
+
+                <a href="fea-internship.html" class="block bg-white p-6 rounded-xl border border-slate-200 card-hover transition-all">
+                    <h4 class="text-lg font-bold text-slate-800 mb-2">FEA Simulation Internship</h4>
+                    <p class="text-sm text-slate-600 mb-4 line-clamp-3">Completed a certified internship at PT CADFEM Simulation Technology Indonesia, conducting Finite Element Analysis (FEA) for mechanical stress and strain evaluation.</p>
+                    <div class="text-teal-600 text-sm font-semibold flex items-center gap-1">
+                        View Details <span class="text-lg leading-none">&rarr;</span>
+                    </div>
+                </a>
+
+                <a href="industrial-operations.html" class="block bg-white p-6 rounded-xl border border-slate-200 card-hover transition-all">
+                    <h4 class="text-lg font-bold text-slate-800 mb-2">Industrial Refinery Operations</h4>
+                    <p class="text-sm text-slate-600 mb-4 line-clamp-3">On-the-job training at PT Kilang Pertamina Internasional RU II Dumai. Conducted field observations on water treatment systems and demineralizer operational cycles.</p>
+                    <div class="text-teal-600 text-sm font-semibold flex items-center gap-1">
+                        View Details <span class="text-lg leading-none">&rarr;</span>
+                    </div>
+                </a>
+
+                <a href="research-innovation.html" class="block bg-white p-6 rounded-xl border border-slate-200 card-hover transition-all">
+                    <h4 class="text-lg font-bold text-slate-800 mb-2">Research & Innovation (PKM-RE)</h4>
+                    <p class="text-sm text-slate-600 mb-4 line-clamp-3">Led a government-funded research team to develop an innovative biosorbent using ultrasonic methods, effectively reducing lead (Pb) metal ions in wastewater.</p>
+                    <div class="text-teal-600 text-sm font-semibold flex items-center gap-1">
+                        View Details <span class="text-lg leading-none">&rarr;</span>
+                    </div>
+                </a>
+
+                <a href="academic-leadership.html" class="block bg-white p-6 rounded-xl border border-slate-200 card-hover transition-all">
+                    <h4 class="text-lg font-bold text-slate-800 mb-2">Academic Leadership & Operations</h4>
+                    <p class="text-sm text-slate-600 mb-4 line-clamp-3">Laboratory Assistant for Chemical Engineering Operations. Navigated complex valve configurations and ensured strict process safety for legacy equipment operations.</p>
+                    <div class="text-teal-600 text-sm font-semibold flex items-center gap-1">
+                        View Details <span class="text-lg leading-none">&rarr;</span>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER WITH ICONS -->
+    <footer class="bg-white border-t border-slate-200 py-10 mt-10">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <h3 class="text-lg font-bold text-slate-800 mb-6">Let's Connect</h3>
+            
+            <div class="flex justify-center gap-6 mb-6">
+                <!-- WhatsApp Icon -->
+                <a href="https://wa.me/6285393210822" target="_blank" class="text-slate-400 hover:text-teal-600 transition-colors transform hover:scale-110" aria-label="WhatsApp">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                    </svg>
+                </a>
+                
+                <!-- Email Icon -->
+                <a href="mailto:indirashartn@gmail.com" class="text-slate-400 hover:text-teal-600 transition-colors transform hover:scale-110" aria-label="Email">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </a>
+
+                <!-- LinkedIn Icon -->
+                <a href="#" target="_blank" class="text-slate-400 hover:text-teal-600 transition-colors transform hover:scale-110" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+            </div>
+            
+            <p class="text-sm text-slate-400">&copy; 2026 Indira Syam Hartono. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ANTI-COPAS JAVASCRIPT -->
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.onkeydown = function(e) {
+            if(e.keyCode == 123) return false;
+            if(e.ctrlKey && (e.keyCode === 67 || e.keyCode === 85 || e.keyCode === 83 || e.shiftKey && (e.keyCode === 73 || e.keyCode === 74 || e.keyCode === 67))) return false;
+        };
+    </script>
+</body>
+</html>
