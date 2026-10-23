@@ -35,10 +35,10 @@
             <h2 class="text-xl font-bold text-slate-900 mb-4">Project Overview & Execution</h2>
             <div class="prose prose-slate max-w-none text-justify text-slate-600 leading-relaxed space-y-4">
                 <p>
-                    Acted as the principal engineer in developing a comprehensive preliminary plant design framework for producing 50,000 tons/year of Ethylene Glycol via coal gasification as a sustainable alternative to conventional petroleum-based routes. The industrial layout was strategically planned for Separi Village, Kutai Kartanegara, utilizing the Mahakam River for vital process water supply.
+                    Developed a comprehensive preliminary plant design framework for producing 50,000 tons/year of Ethylene Glycol via coal gasification, offering a sustainable alternative to conventional petroleum-based routes. The plant layout was strategically planned for Separi Village, Kutai Kartanegara, utilizing the Mahakam River for process water supply.
                 </p>
                 <p>
-                    Taking full technical ownership of the project, I independently formulated and executed rigorous mass and energy balances across all core processing units. This involved managing a 4,587 kg/hour coal feedstock and engineering the entire operational lifecycle—from entrained-bed gasification and syngas purification to catalytic hydrogenation—achieving a final product purity of 99%.
+                    Taking full ownership of the technical design, I independently formulated rigorous mass and energy balances across all core processing units. This included managing a 4,587 kg/hour coal feedstock and designing the entire operational lifecycle—from syngas generation and purification to catalytic hydrogenation—achieving a final product purity of 99%.
                 </p>
             </div>
         </section>
@@ -51,96 +51,64 @@
                     <img src="plant-flow.jpg" alt="Ethylene Glycol Plant Flow Diagram from Coal Gasification" class="w-full h-auto object-contain hover:opacity-95 transition-opacity nodrag" oncontextmenu="return false;">
                 </a>
             </div>
-            <p class="text-xs text-slate-500 text-center mb-6">Figure: Process flow diagram illustrating the synthesis and purification sections of the ethylene glycol plant. (Click image to open in full size)</p>
-
-            <!-- LEGEND KODE ALAT -->
-            <div class="border-t border-slate-100 pt-5">
-                <h4 class="text-sm font-bold text-slate-800 mb-3 uppercase tracking-wider">Legend — Equipment Codes</h4>
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-3 text-sm">
-                    <div class="flex items-start gap-2">
-                        <span class="font-mono font-bold text-teal-700 shrink-0">SR</span>
-                        <span class="text-slate-600">Size Reduction (Hammer Mill)</span>
-                    </div>
-                    <div class="flex items-start gap-2">
-                        <span class="font-mono font-bold text-teal-700 shrink-0">S</span>
-                        <span class="text-slate-600">Screening</span>
-                    </div>
-                    <div class="flex items-start gap-2">
-                        <span class="font-mono font-bold text-teal-700 shrink-0">DE</span>
-                        <span class="text-slate-600">Dryer (Rotary Dryer)</span>
-                    </div>
-                    <div class="flex items-start gap-2">
-                        <span class="font-mono font-bold text-teal-700 shrink-0">G</span>
-                        <span class="text-slate-600">Gasifier (Entrained-Bed)</span>
-                    </div>
-                    <div class="flex items-start gap-2">
-                        <span class="font-mono font-bold text-teal-700 shrink-0">C</span>
-                        <span class="text-slate-600">Cyclone / Separator</span>
-                    </div>
-                    <div class="flex items-start gap-2">
-                        <span class="font-mono font-bold text-teal-700 shrink-0">W</span>
-                        <span class="text-slate-600">Scrubber / Water Wash</span>
-                    </div>
-                    <div class="flex items-start gap-2">
-                        <span class="font-mono font-bold text-teal-700 shrink-0">R</span>
-                        <span class="text-slate-600">Reactor (Catalytic Hydrogenation)</span>
-                    </div>
-                    <div class="flex items-start gap-2">
-                        <span class="font-mono font-bold text-teal-700 shrink-0">T</span>
-                        <span class="text-slate-600">Distillation / Absorption Tower</span>
-                    </div>
-                    <div class="flex items-start gap-2">
-                        <span class="font-mono font-bold text-teal-700 shrink-0">HX</span>
-                        <span class="text-slate-600">Heat Exchanger</span>
-                    </div>
-                    <div class="flex items-start gap-2">
-                        <span class="font-mono font-bold text-teal-700 shrink-0">P</span>
-                        <span class="text-slate-600">Pump</span>
-                    </div>
-                    <div class="flex items-start gap-2">
-                        <span class="font-mono font-bold text-teal-700 shrink-0">K</span>
-                        <span class="text-slate-600">Compressor / Blower</span>
-                    </div>
-                    <div class="flex items-start gap-2">
-                        <span class="font-mono font-bold text-teal-700 shrink-0">TK</span>
-                        <span class="text-slate-600">Storage Tank</span>
-                    </div>
-                </div>
-                <p class="text-xs text-slate-400 mt-4 italic">Note: Kode angka setelah huruf (mis. SR-101, DE-101) menunjukkan nomor urut alat pada flowsheet.</p>
-            </div>
+            <p class="text-xs text-slate-500 text-center leading-relaxed">
+                Figure: Process flow diagram illustrating the synthesis and purification sections of the ethylene glycol plant.<br>
+                <span class="font-medium text-slate-600">(Equipment Legend: SR = Size Reduction, DE = Dryer, R = Reactor, T = Tower/Column, E = Heat Exchanger, V = Vessel, C = Compressor)</span>. Click image to open in full size.
+            </p>
         </section>
 
         <!-- CORE ENGINEERING CONTRIBUTIONS -->
         <section class="mb-12 grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-                <h3 class="text-base font-bold text-slate-900 mb-3 border-b border-slate-100 pb-2">Process Synthesis & Sizing</h3>
-                <ul class="text-sm text-slate-600 space-y-2 list-disc list-inside">
-                    <li>Solely engineered coal preparation units including hammer mills (SR-101) and rotary dryers (DE-101) operating at 200°C.</li>
-                    <li>Designed entrained-bed gasification loops operating under extreme parameters of 1,500°C and 40 bar.</li>
-                    <li>Calculated utility requirements from scratch, handling a 10,420 kW electricity load and extensive cooling water distribution networks.</li>
+                <h3 class="text-base font-bold text-slate-900 mb-3 border-b border-slate-100 pb-2">Process Synthesis & Optimization</h3>
+                <ul class="text-sm text-slate-600 space-y-2 list-disc list-inside text-justify">
+                    <li>Engineered entrained-bed gasification loops operating at 1,500°C and 40 bar, integrated with a 15% MEA absorption tower (T-201) for critical acid gas removal.</li>
+                    <li>Designed a multi-stage catalytic reactor network for methyl nitrite synthesis (R-301), dimethyl oxalate formation (R-302), and final hydrogenation (R-303).</li>
+                    <li>Optimized product separation using rigorous distillation columns (T-301, T-401) to achieve 99% purity, strategically recycling methanol by-products to minimize waste.</li>
                 </ul>
             </div>
             <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
                 <h3 class="text-base font-bold text-slate-900 mb-3 border-b border-slate-100 pb-2">Economic Feasibility Analysis</h3>
-                <ul class="text-sm text-slate-600 space-y-2 list-disc list-inside">
-                    <li>Independently structured the economic modeling, achieving a Pay-Out Time (POT) of 3.57 years.</li>
-                    <li>Calculated a Break-Even Point (BEP) of 25.71%.</li>
-                    <li>Validated project profitability with an Internal Rate of Return (IRR) of 24.01%, strongly surpassing the 18.00% MARR benchmark.</li>
+                <ul class="text-sm text-slate-600 space-y-2 list-disc list-inside text-justify">
+                    <li>Evaluated the plant's financial viability by calculating total fixed and variable costs, alongside initial investment requirements derived from equipment sizing.</li>
+                    <li>Modeled comprehensive cash flows, achieving a Pay-Out Time (POT) of 3.57 years and a Break-Even Point (BEP) of 25.71%.</li>
+                    <li>Validated robust project profitability with an Internal Rate of Return (IRR) of 24.01%, comfortably surpassing the 18.00% MARR benchmark.</li>
                 </ul>
             </div>
         </section>
 
-        <!-- DOCUMENT LINK -->
-        <section class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm mb-8">
-            <h2 class="text-xl font-bold text-slate-900 mb-6">Published Journal & Documentation</h2>
+        <!-- DOCUMENT LINKS SECTION -->
+        <section class="mb-8">
+            <h2 class="text-xl font-bold text-slate-900 mb-6">Project Documentation & Publications</h2>
             
-            <a href="https://doi.org/10.51244/IJRSI.2026.1304000159" target="_blank" class="w-full flex items-center justify-between px-6 py-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-lg transition-colors group">
-                <div>
-                    <h3 class="text-slate-800 font-bold mb-1">View Published Journal (IJRSI 2026)</h3>
-                    <p class="text-sm text-slate-500">Access the official published paper detailing full mass-energy balances and economic parameters.</p>
-                </div>
-                <span class="text-teal-600 font-bold text-xl group-hover:translate-x-1 transition-transform">&rarr;</span>
-            </a>
+            <div class="space-y-4">
+                <!-- Link 1: Full Report (Highlighted) -->
+                <a href="https://drive.google.com/drive/folders/1tmQmdMVKKqSrpND_JFrwlLqr0fnWtvIV" target="_blank" class="w-full flex items-center justify-between px-6 py-4 bg-teal-50 hover:bg-teal-100 border border-teal-200 rounded-lg transition-colors group shadow-sm">
+                    <div>
+                        <h3 class="text-teal-900 font-bold mb-1">View Full Plant Design Report</h3>
+                        <p class="text-sm text-teal-700">Access comprehensive mass-energy balance calculations, equipment specifications, and detailed economic spreadsheets.</p>
+                    </div>
+                    <span class="text-teal-600 font-bold text-xl group-hover:translate-x-1 transition-transform">&rarr;</span>
+                </a>
+
+                <!-- Link 2: Journal -->
+                <a href="https://doi.org/10.51244/IJRSI.2026.1304000159" target="_blank" class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-slate-50 border border-slate-200 rounded-lg transition-colors group shadow-sm">
+                    <div>
+                        <h3 class="text-slate-800 font-bold mb-1">View Published Journal (IJRSI 2026)</h3>
+                        <p class="text-sm text-slate-500">Access the official peer-reviewed paper summarizing the methodology and feasibility results.</p>
+                    </div>
+                    <span class="text-teal-600 font-bold text-xl group-hover:translate-x-1 transition-transform">&rarr;</span>
+                </a>
+
+                <!-- Link 3: ETD -->
+                <a href="#" target="_blank" class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-slate-50 border border-slate-200 rounded-lg transition-colors group shadow-sm">
+                    <div>
+                        <h3 class="text-slate-800 font-bold mb-1">View ETD Repository Record</h3>
+                        <p class="text-sm text-slate-500">Access the official university record in the Electronic Theses and Dissertations repository.</p>
+                    </div>
+                    <span class="text-teal-600 font-bold text-xl group-hover:translate-x-1 transition-transform">&rarr;</span>
+                </a>
+            </div>
         </section>
 
     </main>
