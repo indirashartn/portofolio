@@ -7,30 +7,15 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-        
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f8fafc;
-            color: #1e293b;
-        }
-
-        /* ANTI-COPAS CSS */
-        .noselect {
-            -webkit-touch-callout: none;
-            -webkit-user-select: none;
-            -khtml-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #1e293b; }
+        .noselect { user-select: none; -webkit-user-select: none; }
+        .nodrag { -webkit-user-drag: none; pointer-events: none; }
     </style>
 </head>
 <body class="noselect antialiased selection:bg-teal-100 selection:text-teal-900">
 
-    <!-- NAVIGATION BAR -->
     <nav class="w-full bg-white border-b border-slate-200 sticky top-0 z-50">
         <div class="max-w-4xl mx-auto px-6 py-4">
-            <!-- Tombol Kembali -->
             <a href="index.html" class="inline-flex items-center text-sm font-semibold text-teal-700 hover:text-teal-900 transition-colors">
                 <span class="mr-2 text-lg">&larr;</span> Back to Portfolio
             </a>
@@ -39,66 +24,71 @@
 
     <main class="max-w-4xl mx-auto px-6 pt-12 pb-20">
         
-        <!-- HEADER SECTION -->
         <header class="mb-10 border-b border-slate-200 pb-8">
-            <span class="px-3 py-1 bg-teal-100 text-teal-800 text-xs font-bold uppercase tracking-wider rounded border border-teal-200 mb-4 inline-block">Bachelor's Final Project</span>
-            <h1 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4 leading-tight">Preliminary Design of an Ethylene Glycol Plant from Coal Gasification</h1>
-            <p class="text-lg text-slate-600 font-medium">Capacity: 50,000 Tons/Year | Grade: Excellent (A)</p>
+            <span class="px-3 py-1 bg-teal-100 text-teal-800 text-xs font-bold uppercase tracking-wider rounded border border-teal-200 mb-4 inline-block">Published Research & Plant Design</span>
+            <h1 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4 leading-tight">Preliminary Design of an Ethylene Glycol Plant</h1>
+            <p class="text-lg text-slate-600 font-medium">From Coal Gasification Route (Capacity: 50,000 Tons/Year)[span_0](start_span)[span_0](end_span)</p>
         </header>
 
-        <!-- EXECUTIVE SUMMARY SECTION -->
+        <!-- PROJECT OVERVIEW -->
         <section class="mb-12">
-            <h2 class="text-xl font-bold text-slate-900 mb-4">Executive Summary</h2>
+            <h2 class="text-xl font-bold text-slate-900 mb-4">Project Overview & Execution</h2>
             <div class="prose prose-slate max-w-none text-justify text-slate-600 leading-relaxed space-y-4">
                 <p>
-                    This comprehensive project involved the preliminary design and process simulation of an industrial-scale Ethylene Glycol plant, utilizing coal gasification as the primary synthesis pathway. The facility was designed to meet a production capacity of 50,000 tons per year, requiring meticulous thermodynamic evaluation and process flow optimization.
+                    Acted as the principal engineer in developing a comprehensive preliminary plant design framework for producing 50,000 tons/year of Ethylene Glycol via coal gasification as a sustainable alternative to conventional petroleum-based routes[span_1](start_span)[span_1](end_span)[span_2](start_span)[span_2](end_span). The industrial layout was strategically planned for Separi Village, Kutai Kartanegara, utilizing the Mahakam River for vital process water supply[span_3](start_span)[span_3](end_span)[span_4](start_span)[span_4](end_span).
                 </p>
                 <p>
-                    I utilized <strong>Aspen Plus</strong> extensively to model the entire process system. This involved performing rigorous mass and energy balance calculations, optimizing conversion rates, and designing utility integration systems to maximize overall energy efficiency. Furthermore, a detailed techno-economic analysis was conducted, encompassing capital cost estimation, operational expenditure, and process feasibility evaluation to ensure the plant's commercial viability.
-                </p>
-                <p>
-                    The outcome of this project successfully demonstrated enhanced process efficiency through the strategic optimization of operating conditions and sustainable utility management, ultimately culminating in an "A" grade and subsequent academic publications.
+                    Taking full technical ownership of the project, I independently formulated and executed rigorous mass and energy balances across all core processing units. This involved managing a 4,587 kg/hour coal feedstock and engineering the entire operational lifecycle—from entrained-bed gasification and syngas purification to catalytic hydrogenation—achieving a final product purity of 99%[span_5](start_span)[span_5](end_span)[span_6](start_span)[span_6](end_span).
                 </p>
             </div>
         </section>
 
-        <!-- EXTERNAL LINKS SECTION -->
-        <section class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm mb-8">
-            <h2 class="text-xl font-bold text-slate-900 mb-6">Project Documentation & Publications</h2>
-            
-            <div class="flex flex-col gap-4">
-                <!-- Full Document (Drive) -->
-                <a href="https://drive.google.com/file/d/1F6CPvj_5jVVcYu18OAPsVsB7OX7CyW_P/view?usp=drivesdk" target="_blank" class="w-full flex items-center justify-between px-6 py-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-lg transition-colors group">
-                    <div>
-                        <h3 class="text-slate-800 font-bold mb-1">View Full Document</h3>
-                        <p class="text-sm text-slate-500">Access the complete comprehensive design report (Google Drive).</p>
-                    </div>
-                    <span class="text-teal-600 font-bold text-xl group-hover:translate-x-1 transition-transform">&rarr;</span>
-                </a>
-
-                <!-- Journal Publication -->
-                <a href="https://repository.rsis.international/ijrsi/13/4/the-preliminary-design-of-ethylene-glycol-plant-using-coal-gasification-9042.pdf" target="_blank" class="w-full flex items-center justify-between px-6 py-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-lg transition-colors group">
-                    <div>
-                        <h3 class="text-slate-800 font-bold mb-1">Journal Publication</h3>
-                        <p class="text-sm text-slate-500">Read the published article on IJRSI Repository.</p>
-                    </div>
-                    <span class="text-teal-600 font-bold text-xl group-hover:translate-x-1 transition-transform">&rarr;</span>
-                </a>
-
-                <!-- ETD USK -->
-                <a href="https://etd.usk.ac.id/search/index.php?p=baca&bacaID=146395&page=1" target="_blank" class="w-full flex items-center justify-between px-6 py-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-lg transition-colors group">
-                    <div>
-                        <h3 class="text-slate-800 font-bold mb-1">ETD Repository</h3>
-                        <p class="text-sm text-slate-500">View the Electronic Thesis and Dissertation record at USK.</p>
-                    </div>
-                    <span class="text-teal-600 font-bold text-xl group-hover:translate-x-1 transition-transform">&rarr;</span>
+        <!-- PROCESS FLOW DIAGRAM (VISIO) -->
+        <section class="mb-12 bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+            <h3 class="text-lg font-bold text-slate-900 mb-4">Process Flow Diagram (PFD)</h3>
+            <div class="overflow-hidden rounded-lg border border-slate-200 bg-slate-50 mb-4">
+                <a href="plant-flow.jpg" target="_blank" title="Click to view full image">
+                    <img src="plant-flow.jpg" alt="Ethylene Glycol Plant Flow Diagram from Coal Gasification" class="w-full h-auto object-contain hover:opacity-95 transition-opacity nodrag" oncontextmenu="return false;">
                 </a>
             </div>
+            <p class="text-xs text-slate-500 text-center">Figure: Process flow diagram illustrating the synthesis and purification sections of the ethylene glycol plant[span_7](start_span)[span_7](end_span). (Click image to open in full size)</p>
+        </section>
+
+        <!-- CORE ENGINEERING CONTRIBUTIONS -->
+        <section class="mb-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                <h3 class="text-base font-bold text-slate-900 mb-3 border-b border-slate-100 pb-2">Process Synthesis & Sizing</h3>
+                <ul class="text-sm text-slate-600 space-y-2 list-disc list-inside">
+                    <li>Solely engineered coal preparation units including hammer mills (SR-101) and rotary dryers (DE-101) operating at 200°C[span_8](start_span)[span_8](end_span).</li>
+                    <li>Designed entrained-bed gasification loops operating under extreme parameters of 1,500°C and 40 bar[span_9](start_span)[span_9](end_span).</li>
+                    <li>Calculated utility requirements from scratch, handling a 10,420 kW electricity load and extensive cooling water distribution networks[span_10](start_span)[span_10](end_span)[span_11](start_span)[span_11](end_span).</li>
+                </ul>
+            </div>
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                <h3 class="text-base font-bold text-slate-900 mb-3 border-b border-slate-100 pb-2">Economic Feasibility Analysis</h3>
+                <ul class="text-sm text-slate-600 space-y-2 list-disc list-inside">
+                    <li>Independently structured the economic modeling, achieving a Pay-Out Time (POT) of 3.57 years[span_12](start_span)[span_12](end_span).</li>
+                    <li>Calculated a Break-Even Point (BEP) of 25.71%[span_13](start_span)[span_13](end_span).</li>
+                    <li>Validated project profitability with an Internal Rate of Return (IRR) of 24.01%, strongly surpassing the 18.00% MARR benchmark[span_14](start_span)[span_14](end_span).</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- DOCUMENT LINK -->
+        <section class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm mb-8">
+            <h2 class="text-xl font-bold text-slate-900 mb-6">Published Journal & Documentation</h2>
+            
+            <a href="https://doi.org/10.51244/IJRSI.2026.1304000159" target="_blank" class="w-full flex items-center justify-between px-6 py-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-lg transition-colors group">
+                <div>
+                    <h3 class="text-slate-800 font-bold mb-1">View Published Journal (IJRSI 2026)</h3>
+                    <p class="text-sm text-slate-500">Access the official published paper detailing full mass-energy balances and economic parameters[span_15](start_span)[span_15](end_span).</p>
+                </div>
+                <span class="text-teal-600 font-bold text-xl group-hover:translate-x-1 transition-transform">&rarr;</span>
+            </a>
         </section>
 
     </main>
 
-    <!-- ANTI-COPAS JAVASCRIPT -->
     <script>
         document.addEventListener('contextmenu', event => event.preventDefault());
         document.onkeydown = function(e) {
