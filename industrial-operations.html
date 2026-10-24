@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Industrial Refinery Operations | Indira Syam Hartono</title>
+    <title>Industrial Training | Indira Syam Hartono</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
         body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #1e293b; }
         .noselect { user-select: none; -webkit-user-select: none; }
+        .nodrag { -webkit-user-drag: none; pointer-events: none; }
     </style>
 </head>
 <body class="noselect antialiased selection:bg-teal-100 selection:text-teal-900">
@@ -24,24 +25,59 @@
     <main class="max-w-4xl mx-auto px-6 pt-12 pb-20">
         
         <header class="mb-10 border-b border-slate-200 pb-8">
-            <span class="px-3 py-1 bg-teal-100 text-teal-800 text-xs font-bold uppercase tracking-wider rounded border border-teal-200 mb-4 inline-block">On-The-Job Training</span>
-            <h1 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4 leading-tight">Industrial Water Treatment System Evaluation</h1>
-            <p class="text-lg text-slate-600 font-medium">PT Kilang Pertamina Internasional RU II Dumai</p>
+            <span class="px-3 py-1 bg-teal-100 text-teal-800 text-xs font-bold uppercase tracking-wider rounded border border-teal-200 mb-4 inline-block">Industrial On-the-Job Training</span>
+            <h1 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4 leading-tight">Utility Systems & Water Treatment Plant Operations</h1>
+            <p class="text-lg text-slate-600 font-medium">PT Kilang Pertamina Internasional – Refinery Unit II Dumai</p>
         </header>
 
-        <section class="mb-12">
-            <h2 class="text-xl font-bold text-slate-900 mb-4">Independent Field Observation & Analysis</h2>
+        <!-- OVERVIEW SECTION -->
+        <section class="mb-10">
             <div class="prose prose-slate max-w-none text-justify text-slate-600 leading-relaxed space-y-4">
                 <p>
-                    During my industrial placement, I demonstrated strong proactive initiative by conducting an in-depth independent study of the refinery's water treatment operational modules. I focused heavily on understanding the intricate utility systems required to sustain large-scale refinery operations.
-                </p>
-                <p>
-                    Through extensive field site visits, I systematically verified equipment tags (P&ID mapping) across the core utility processing units. My primary technical focus was on analyzing the filtration units, cation-anion demineralizers, and the deaerator system. 
-                </p>
-                <p>
-                    Furthermore, I closely evaluated the demineralizer's complete operational cycle. This included observing the ion-exchange process, analyzing the critical backwash and regeneration phases, and evaluating the effluent management strategy at the designated sump pit where accumulated salt waste was systematically discharged.
+                    Gained comprehensive, hands-on exposure to industrial-scale utility operations at one of Indonesia's major oil refineries. Bridged the gap between theoretical chemical engineering and actual field operations, developing a holistic understanding of how critical utility systems sustain large-scale continuous plant operations.
                 </p>
             </div>
+        </section>
+
+        <!-- CORE FIELD EXPERIENCE -->
+        <section class="space-y-6">
+            
+            <!-- Highlight 1: WTP Mastery (With Image) -->
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col md:flex-row gap-6 items-center">
+                <div class="w-full md:w-2/5 overflow-hidden rounded-lg border border-slate-200 bg-slate-50">
+                    <!-- Pastikan nama file gambar WTP kamu sesuai dengan src di bawah ini -->
+                    <img src="wtp-process.jpg" alt="Water Treatment Plant Process Diagram" class="w-full h-auto object-contain hover:opacity-95 transition-opacity nodrag" oncontextmenu="return false;">
+                </div>
+                <div class="w-full md:w-3/5">
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Water Treatment Plant (WTP) Mastery</h3>
+                    <p class="text-sm text-slate-600 text-justify leading-relaxed mb-4">
+                        Mastered the end-to-end operational flow of the refinery’s Water Treatment Plant. Developed a strong practical understanding of raw water processing stages, including clarification, filtration, and chemical dosing, ensuring the utility system meets the rigorous demands of refinery operations.
+                    </p>
+                    <span class="inline-block px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-semibold rounded">WTP Operations</span>
+                </div>
+            </div>
+
+            <!-- Highlight 2 & 3 (Side by Side on Desktop) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <!-- Highlight 2: Demineralization -->
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col">
+                    <h3 class="text-lg font-bold text-slate-900 mb-3">Demineralization Process Evaluation</h3>
+                    <p class="text-sm text-slate-600 text-justify leading-relaxed flex-grow">
+                        Conducted a specific analytical study on the Demineralizer Unit. Evaluated the efficiency of cation and anion exchange resins in removing mineral ions from raw water, a critical process required to produce high-purity boiler feed water and prevent scaling or corrosion in high-pressure plant equipment.
+                    </p>
+                </div>
+
+                <!-- Highlight 3: Field Operations -->
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col">
+                    <h3 class="text-lg font-bold text-slate-900 mb-3">Field Operations & P&ID Familiarization</h3>
+                    <p class="text-sm text-slate-600 text-justify leading-relaxed flex-grow">
+                        Translated academic knowledge into real-world engineering by tracing actual pipeline routes, studying Process and Instrument Diagrams (P&ID) directly in the field, and engaging with senior operators to understand practical troubleshooting in utility operations.
+                    </p>
+                </div>
+
+            </div>
+
         </section>
 
     </main>
