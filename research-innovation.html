@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research & Innovation | Indira Syam Hartono</title>
+    <title>PKM-RE Research | Indira Syam Hartono</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
         body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #1e293b; }
         .noselect { user-select: none; -webkit-user-select: none; }
+        .nodrag { -webkit-user-drag: none; pointer-events: none; }
     </style>
 </head>
 <body class="noselect antialiased selection:bg-teal-100 selection:text-teal-900">
@@ -24,24 +25,78 @@
     <main class="max-w-4xl mx-auto px-6 pt-12 pb-20">
         
         <header class="mb-10 border-b border-slate-200 pb-8">
-            <span class="px-3 py-1 bg-teal-100 text-teal-800 text-xs font-bold uppercase tracking-wider rounded border border-teal-200 mb-4 inline-block">PKM-RE Funding Awardee</span>
-            <h1 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4 leading-tight">Ultrasonic Biosorbent Development for Metal Ion Reduction</h1>
-            <p class="text-lg text-slate-600 font-medium">Exact Research Category | Wastewater Treatment</p>
+            <span class="px-3 py-1 bg-teal-100 text-teal-800 text-xs font-bold uppercase tracking-wider rounded border border-teal-200 mb-4 inline-block">National Funded Research (PKM-RE 2023)</span>
+            <h1 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4 leading-tight">Biosorbent Development for Pb(II) Heavy Metal Reduction</h1>
+            <p class="text-lg text-slate-600 font-medium">Utilizing Red Jabon Leaf Waste via NaOH-Ultrasonic Activation</p>
         </header>
 
+        <!-- PROJECT OVERVIEW & LEADERSHIP -->
         <section class="mb-12">
-            <h2 class="text-xl font-bold text-slate-900 mb-4">Executive Summary</h2>
             <div class="prose prose-slate max-w-none text-justify text-slate-600 leading-relaxed space-y-4">
                 <p>
-                    Led a highly motivated team to secure competitive national research funding under the Exact Research (PKM-RE) category. The research focused on synthesizing an innovative and sustainable biosorbent to address industrial wastewater contamination.
-                </p>
-                <p>
-                    We implemented ultrasonic methods to enhance the biosorbent's structural properties, specifically targeting the effective reduction of toxic lead (Pb) metal ions. This project encompassed the entire research lifecycle—from initial proposal formulation and laboratory material synthesis to progress monitoring and comprehensive data presentation.
+                    Acted as the Team Leader for this nationally funded research project under the PKM-RE 2023 program, secured through Belmawa. Coordinated the end-to-end research execution, managed laboratory setups, and led the quantitative data processing phases.
                 </p>
             </div>
         </section>
 
-        <section class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm mb-8">
+        <!-- MULTIMEDIA SECTION (IMAGE + VIDEO) -->
+        <section class="mb-12 grid grid-cols-1 md:grid-cols-2 gap-6">
+            
+            <!-- Static Image -->
+            <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex flex-col">
+                <div class="overflow-hidden rounded-lg bg-slate-50 mb-3 flex-grow">
+                    <!-- Ganti 'biosorbent-lab.jpg' dengan nama file gambarmu -->
+                    <img src="biosorbent-lab.jpg" alt="Biosorbent Preparation Process" class="w-full h-full object-cover nodrag" oncontextmenu="return false;">
+                </div>
+                <p class="text-xs text-slate-500 text-center font-medium">Laboratory preparation of Anthocephalus macrophyllus biosorbent.</p>
+            </div>
+
+            <!-- Video Player -->
+            <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex flex-col">
+                <div class="overflow-hidden rounded-lg bg-black mb-3 relative flex-grow flex items-center justify-center">
+                    <!-- Ganti 'pkm-video.mp4' dengan nama file videomu -->
+                    <video controls class="w-full h-auto max-h-64 nodrag" preload="metadata">
+                        <source src="pkm-video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <p class="text-xs text-slate-500 text-center font-medium mb-2">Research execution and methodology overview.</p>
+                <!-- Fallback Link if Video Fails to Load/Play -->
+                <a href="https://link-youtube-atau-drive-videomu.com" target="_blank" class="text-xs text-teal-600 hover:text-teal-800 text-center font-semibold transition-colors">
+                    &#128279; Click here if the video doesn't play
+                </a>
+            </div>
+
+        </section>
+
+        <!-- CORE TECHNICAL EXECUTION -->
+        <section class="mb-12 space-y-6">
+            <h2 class="text-xl font-bold text-slate-900 mb-4 border-b border-slate-200 pb-2">Core Technical Execution</h2>
+            
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                <h3 class="text-base font-bold text-slate-900 mb-2">Biosorbent Preparation</h3>
+                <p class="text-sm text-slate-600 text-justify leading-relaxed">
+                    Engineered an eco-friendly and cost-effective biosorbent using red jabon leaf waste (Anthocephalus macrophyllus). Executed mechanical preparation (sieving to 100-120 mesh) and chemical activation using NaOH concentrations of 0.1, 0.3, and 0.5 M to break down lignocellulosic bonds and enlarge pore structures.
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                <h3 class="text-base font-bold text-slate-900 mb-2">Adsorption Testing</h3>
+                <p class="text-sm text-slate-600 text-justify leading-relaxed">
+                    Evaluated the biosorbent's efficiency in reducing Pb(II) heavy metal ions. Conducted rigorous equilibrium time testing on artificial Pb(II) solutions (ranging from 50 to 500 mg/L) and validated the application using actual hospital wastewater from Klinik Pratama USK.
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                <h3 class="text-base font-bold text-slate-900 mb-2">Instrumental Analysis</h3>
+                <p class="text-sm text-slate-600 text-justify leading-relaxed">
+                    Characterized the physical morphology and functional groups of the biosorbent using Scanning Electron Microscopy (SEM) and Fourier Transform InfraRed Spectroscopy (FTIR). Analyzed the final adsorption capacity and kinetic models quantitatively using an Atomic Absorption Spectrophotometer (AAS).
+                </p>
+            </div>
+        </section>
+
+        <!-- DOCUMENT LINK -->
+        <section class="mb-8">
             <h2 class="text-xl font-bold text-slate-900 mb-6">Research Documentation</h2>
             
             <div class="flex flex-col gap-4">
@@ -82,3 +137,4 @@
     </script>
 </body>
 </html>
+
