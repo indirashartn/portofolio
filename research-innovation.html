@@ -41,7 +41,7 @@
             </div>
         </section>
 
-        <!-- MULTIMEDIA SECTION (IMAGE + VIDEO) -->
+                <!-- MULTIMEDIA SECTION (IMAGE + VIDEO EMBED) -->
         <section class="mb-12 grid grid-cols-1 md:grid-cols-2 gap-6">
             
             <!-- Static Image -->
@@ -53,20 +53,13 @@
                 <p class="text-xs text-slate-500 text-center font-medium">Laboratory preparation of Anthocephalus macrophyllus biosorbent.</p>
             </div>
 
-            <!-- Video Player -->
+            <!-- Embedded Video Player -->
             <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex flex-col">
-                <div class="overflow-hidden rounded-lg bg-black mb-3 relative flex-grow flex items-center justify-center">
-                    <!-- Ganti 'pkm-video.mp4' dengan nama file videomu -->
-                    <video controls class="w-full h-auto max-h-64 nodrag" preload="metadata">
-                        <source src="pkm-video.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                <div class="overflow-hidden rounded-lg bg-black mb-3 relative flex-grow flex items-center justify-center w-full aspect-video">
+                    <!-- Ganti src di bawah ini dengan link embed YouTube atau Drive milikmu -->
+                    <iframe class="w-full h-full" src="https://drive.google.com/file/d/1u2ySTHrowei1IOB9648H_413nWNt3k8o/view?usp=drivesdk" title="PKM-RE Research Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <p class="text-xs text-slate-500 text-center font-medium mb-2">Research execution and methodology overview.</p>
-                <!-- Fallback Link if Video Fails to Load/Play -->
-                <a href="https://link-youtube-atau-drive-videomu.com" target="_blank" class="text-xs text-teal-600 hover:text-teal-800 text-center font-semibold transition-colors">
-                    &#128279; Click here if the video doesn't play
-                </a>
             </div>
 
         </section>
