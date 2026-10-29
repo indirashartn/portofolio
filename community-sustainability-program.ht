@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Service | Indira Syam Hartono</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #1e293b; }
+        .noselect { user-select: none; -webkit-user-select: none; }
+        .nodrag { -webkit-user-drag: none; pointer-events: none; }
+    </style>
+</head>
+<body class="noselect antialiased selection:bg-teal-100 selection:text-teal-900">
+
+    <nav class="w-full bg-white border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-6 py-4">
+            <a href="index.html" class="inline-flex items-center text-sm font-semibold text-teal-700 hover:text-teal-900 transition-colors">
+                <span class="mr-2 text-lg">&larr;</span> Back to Portfolio
+            </a>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-6 pt-12 pb-20">
+        
+        <header class="mb-10 border-b border-slate-200 pb-8">
+            <span class="px-3 py-1 bg-teal-100 text-teal-800 text-xs font-bold uppercase tracking-wider rounded border border-teal-200 mb-4 inline-block">Community Service (P3KKN)</span>
+            <h1 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4 leading-tight">STEM Education & Environmental Empowerment</h1>
+            <p class="text-lg text-slate-600 font-medium">Used Cooking Oil Upcycling Project – Pidie Jaya</p>
+        </header>
+
+        <!-- OVERVIEW SECTION -->
+        <section class="mb-10">
+            <div class="prose prose-slate max-w-none text-justify text-slate-600 leading-relaxed space-y-4">
+                <p>
+                    Led an independent community empowerment program focused on environmental sustainability during the P3KKN service period in Pidie Jaya. Successfully translated chemical engineering principles into practical, everyday solutions to educate local communities on waste upcycling and environmental stewardship.
+                </p>
+            </div>
+        </section>
+
+        <!-- CORE PROJECT SECTION -->
+        <section class="mb-12">
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col gap-6">
+                
+                <!-- Main Image -->
+                <div class="w-full overflow-hidden rounded-lg border border-slate-200 bg-slate-50">
+                    <!-- Ganti 'kkn-soap.jpg' dengan nama file fotomu -->
+                    <img src="kkn-soap.jpg" alt="STEM Education Demonstration in Classroom" class="w-full h-auto object-cover hover:opacity-95 transition-opacity nodrag" oncontextmenu="return false;">
+                </div>
+                
+                <!-- Project Description -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-2">
+                    
+                    <div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                            <span class="bg-teal-100 text-teal-700 w-6 h-6 rounded-full flex items-center justify-center text-xs mr-2">1</span>
+                            Product R&D & Formulation
+                        </h3>
+                        <p class="text-sm text-slate-600 text-justify leading-relaxed">
+                            Acted as the sole person-in-charge for formulating liquid soap from household waste cooking oil. Conducted extensive literature reviews and executed iterative laboratory trials to achieve the optimal saponification formula, ensuring the final product was both chemically stable and safe for daily use.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                            <span class="bg-teal-100 text-teal-700 w-6 h-6 rounded-full flex items-center justify-center text-xs mr-2">2</span>
+                            Interactive Public Education
+                        </h3>
+                        <p class="text-sm text-slate-600 text-justify leading-relaxed">
+                            Organized hands-on STEM workshops for local elementary students. Demonstrated the chemical conversion process interactively while enforcing basic safety protocols. Additionally, integrated environmental awareness by distributing educational comic books to instill early habits in waste sorting and management.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Badges -->
+                <div class="flex flex-wrap gap-2 mt-2 pt-4 border-t border-slate-100">
+                    <span class="inline-block px-3 py-1 bg-slate-100 border border-slate-200 text-slate-700 text-xs font-semibold rounded-md shadow-sm">Waste Upcycling</span>
+                    <span class="inline-block px-3 py-1 bg-slate-100 border border-slate-200 text-slate-700 text-xs font-semibold rounded-md shadow-sm">Saponification Process</span>
+                    <span class="inline-block px-3 py-1 bg-slate-100 border border-slate-200 text-slate-700 text-xs font-semibold rounded-md shadow-sm">Public Communication</span>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.onkeydown = function(e) {
+            if(e.keyCode == 123) return false;
+            if(e.ctrlKey && (e.keyCode === 67 || e.keyCode === 85 || e.keyCode === 83 || e.shiftKey && (e.keyCode === 73 || e.keyCode === 74 || e.keyCode === 67))) return false;
+        };
+    </script>
+</body>
+</html>
